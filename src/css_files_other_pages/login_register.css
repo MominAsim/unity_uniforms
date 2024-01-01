@@ -1,0 +1,96 @@
+/*register and login page*/
+.register_page{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 0;
+    height: 100vh;
+    }
+    .register_card{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      background-color: rgb(41, 41, 41);
+      width: 30vw;
+      height: 75vh;
+    }
+    .loginorregisterh1{
+      color: aliceblue;
+      font-size: 5vw;
+      margin-bottom: 5vh;
+    }
+    #username_box{
+        width: 20vw;
+        height: 3vw;
+        margin-top: 2vh;
+      }
+      .email_box{
+      width: 20vw;
+      height: 3vw;
+      margin-top: 4vh;
+      }
+      .password_box{
+        width: 20vw;
+        height: 3vw;
+        margin-top: 4vh;
+      }
+      #login_button{
+        background-color:  rgb(255, 255, 255);
+        color:rgb(0, 0, 0); 
+        height: 6vh;
+        width: 15vw;
+        margin-top: 5vh;
+      }
+        #register_button{
+        background-color:  rgb(255, 255, 255);
+        color:rgb(0, 0, 0); 
+        height: 6vh;
+        width: 15vw;
+        margin-top: 4vh;
+      }
+    @media screen and (max-width: 850px) {
+            .register_card{
+              width: 80vw;
+              height: 52.5vh;
+            }
+            #registerh1id{
+              margin-bottom: 3vh;
+              font-size: 13vw;
+            }
+            #loginh1id{
+              margin-bottom: 2.5vh;
+              font-size: 15vw;
+            }
+            #username_box{
+                width: 50vw;
+                height: 8vw;
+            }
+            .email_box{
+                width: 50vw;
+                height: 8vw;
+                margin-top: 3vh;
+            }
+            .password_box{
+                width: 50vw;
+                height: 8vw;
+                margin-top: 3vh;
+            }
+            #login_email_box{
+                margin-bottom: 2vh;
+            }
+            #login_button{
+                color: rgb(41, 41, 41);
+                background-color: rgb(255, 255, 255);
+                height: 9vw;  
+                width: 45vw;
+                margin-top: 4.5vh;
+              }
+              #register_button{
+              color: rgb(41, 41, 41);
+              background-color: rgb(255, 255, 255);
+              height: 9vw;  
+              width: 45vw;
+              margin-top: 4vh;
+            }
+}    
