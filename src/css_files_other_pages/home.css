@@ -16,34 +16,36 @@ a{
   #unityuniformsheaderid{
     margin-left: 5vw; 
     color: white;
+    font-size: 2.5vw;
   }
   #buttonsheader{
     display: flex;
     justify-content: center;
     flex-direction: row;
     gap: 5vw;
-    margin-left: 12.5vw;
+    margin-left: 11vw;
     font-size: 2vw;
   }
   
   /* body */
-  #school_heading_body{
-    text-align: left;
-    margin-left: 1vw;
-  }
 
+
+  /* mobile */
   @media screen and (max-width: 850px) {
     /* header */
         #unityuniformsheaderid{
           margin-left: 0vw;
-          font-size:5.5vw;
+          font-size:6.5vw;
         }
         #buttonsheader{
           margin-left: 4vw;
           font-size: 5vw;
-          gap: 2vw;
+          gap: 4.3vw;
         }
         #registerid{
           margin-right: 3vw;
+        }
+        #school_heading_body{
+         font-size: 9vw
         }
   }    

@@ -11,9 +11,9 @@
       display: flex;
       align-items: center;
       flex-direction: column;
-      background-color: rgb(41, 41, 41);
+      color: rgb(0, 0, 0);
       width: 30vw;
-      height: 75vh;
+      height: 80vh;
     }
     .loginorregisterh1{
       color: aliceblue;
@@ -76,15 +76,12 @@
                 height: 8vw;
                 margin-top: 3vh;
             }
-            #login_email_box{
-                margin-bottom: 2vh;
-            }
             #login_button{
-                color: rgb(41, 41, 41);
-                background-color: rgb(255, 255, 255);
-                height: 9vw;  
-                width: 45vw;
-                margin-top: 4.5vh;
+              color: rgb(41, 41, 41);
+              background-color: rgb(255, 255, 255);
+              height: 9vw;  
+              width: 45vw;
+              margin-top: 4.5vh;
               }
               #register_button{
               color: rgb(41, 41, 41);
