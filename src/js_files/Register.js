@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from 'react-router-dom';
+import './App.css';
 
 const Register = () => {
 return (
@@ -15,6 +17,8 @@ return (
      <input className="password_box" type="password" name="PASSWORD" placeholder="PASSWORD"></input>
      <br></br>  
      <button type="submit" id="register_button">Register</button>
+     <p className="noacc_registerpg">Already have an account?</p>
+     <Link className="allbuttons" id="tologin_registerpg" to="/Login">Login</Link>
      </div>
      </div>
      </div>
