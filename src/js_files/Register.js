@@ -19,6 +19,9 @@ return (
      <button type="submit" id="register_button">Register</button>
      <p className="noacc_registerpg">Already have an account?</p>
      <Link className="allbuttons" id="tologin_registerpg" to="/Login">Login</Link>
+     <br></br>
+     <br></br>
+     <Link id="backtohome_login" to="/">Go Back Home</Link>
      </div>
      </div>
      </div>

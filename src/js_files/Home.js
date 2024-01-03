@@ -14,8 +14,24 @@ return (
       <Link className="allbuttons" id="registerid" to="/Register">REGISTER</Link>
       </div>
     </header>    
+
+    {/* body of home page  */}
     <body>
-      <h1 id="school_heading_body"><b>Select A School </b></h1>
+      <h1 id="school_heading_body"><b><u>Select A School</u></b></h1>
+      <div className="schoolselect_home_div">
+      <Link className="schoolselect_home" id="city_school_select_home" to="/City">
+      <img src="/images/tcs.png" alt="City School" />
+      </Link>
+      <Link className="schoolselect_home" id="frobles_select_home" to="/Frobles">
+      <img src="/images/frobles.jpg" alt="Frobles" />
+      </Link>
+      <Link className="schoolselect_home" id="licium_select_home" to="Licium">
+      <img src="/images/lyceum.jpg" alt="Licium" />
+      </Link>
+      <Link className="schoolselect_home" id="tis_select_home" to="/Tis">
+      <img src="/images/tis.png" alt="Tis" />
+      </Link>
+      </div>
     </body>
  </>
   );

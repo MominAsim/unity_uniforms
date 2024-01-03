@@ -20,6 +20,9 @@ return (
      <button type="submit" onClick="login_button_function" id="login_button">Login</button>
      <p className="noacc_registerpg">Dont have an account?</p>
      <Link className="allbuttons" id="toregister_loginpg" to="/Register">Register</Link>
+     <br></br>
+     <br></br>
+     <Link id="backtohome_login" to="/">Go Back Home</Link>
      </div>
      </div>
      </div>

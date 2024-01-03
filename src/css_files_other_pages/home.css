@@ -28,7 +28,22 @@ a{
   }
   
   /* body */
-
+.schoolselect_home_div{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10vw;
+  margin-top: 15vh;
+}
+.schoolselect_home{
+ border: none;
+ cursor: pointer;
+ transition: 0.3s;
+}
+.schoolselect_home:hover{
+  transform: scale(1.2);
+  animation-direction: alternate;
+}
 
   /* mobile */
   @media screen and (max-width: 850px) {
@@ -45,7 +60,26 @@ a{
         #registerid{
           margin-right: 3vw;
         }
+
+        /* body */
         #school_heading_body{
-         font-size: 9vw
+         font-size: 9vw;
+         margin-bottom: -9vh;
         }
+        .schoolselect_home_div{
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          gap: 9vh;
+        }
+        .schoolselect_home{
+         border: none;
+         cursor: pointer;
+         transition: 0.3s;
+        }
+        .schoolselect_home:hover{
+          transform: scale(1.2);
+          animation-direction: alternate;
+        }
+
   }    

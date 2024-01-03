@@ -29,22 +29,40 @@
         margin-top: 4vh;
       }
       #login_button{
-        background-color:  rgb(255, 255, 255);
-        color:rgb(0, 0, 0); 
+        color:rgb(255, 255, 255); 
         height: 6vh;
         width: 15vw;
         margin-top: 5vh;
-      }
+        --c:  #ffffff; /* the button bg color*/
+        box-shadow: 0 0 0 .1em inset var(--c); 
+         --_g: linear-gradient(var(--c) 0 0) no-repeat;
+         background: 
+         var(--_g) calc(var(--_p,0%) - 100%) 0%,
+         var(--_g) calc(200% - var(--_p,0%)) 0%,
+         var(--_g) calc(var(--_p,0%) - 100%) 100%,
+         var(--_g) calc(200% - var(--_p,0%)) 100%;
+         background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
+      } 
         #register_button{
         background-color:  rgb(255, 255, 255);
-        color:rgb(0, 0, 0); 
+        color:rgb(255, 255, 255); 
         height: 6vh;
         width: 15vw;
         margin-top: 4vh;
+        --c:  #ffffff; /* the button bg color*/
+        box-shadow: 0 0 0 .1em inset var(--c); 
+         --_g: linear-gradient(var(--c) 0 0) no-repeat;
+         background: 
+         var(--_g) calc(var(--_p,0%) - 100%) 0%,
+         var(--_g) calc(200% - var(--_p,0%)) 0%,
+         var(--_g) calc(var(--_p,0%) - 100%) 100%,
+         var(--_g) calc(200% - var(--_p,0%)) 100%;
+         background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
       }
       .noacc_registerpg{
         color: white;
       }
+
     @media screen and (max-width: 850px) {
             #registerh1id{
               margin-bottom: 4vh;
@@ -55,31 +73,51 @@
               font-size: 20vw;
             }
             #username_box{
-                width: 60vw;
-                height: 8vw;
+              width: 80vw;
+              height: 8vw;
             }
             .email_box{
-              width: 60vw;
+              width: 80vw;
               height: 8vw;
               margin-top: 3vh;
             }
             .password_box{
-              width: 60vw;
+              width: 80vw;
               height: 8vw;
-                margin-top: 3vh;
+              margin-top: 3vh;
             }
             #login_button{
-              color: rgb(41, 41, 41);
+              color: rgb(255, 255, 255);
               background-color: rgb(255, 255, 255);
-              height: 9vw;  
-              width: 45vw;
+              height: 13vw;  
+              width: 60vw;
               margin-top: 4.5vh;
+              margin-bottom: 1vh;
+              --c:  #ffffff; /* the button bg color*/
+              box-shadow: 0 0 0 .1em inset var(--c); 
+               --_g: linear-gradient(var(--c) 0 0) no-repeat;
+               background: 
+               var(--_g) calc(var(--_p,0%) - 100%) 0%,
+               var(--_g) calc(200% - var(--_p,0%)) 0%,
+               var(--_g) calc(var(--_p,0%) - 100%) 100%,
+               var(--_g) calc(200% - var(--_p,0%)) 100%;
+               background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
               }
               #register_button{
-              color: rgb(41, 41, 41);
-              background-color: rgb(255, 255, 255);
-              height: 9vw;  
-              width: 45vw;
-              margin-top: 4vh;
+                color: rgb(255, 255, 255);
+                background-color: rgb(255, 255, 255);
+                height: 13vw;  
+                width: 60vw;
+                margin-top: 4.5vh;
+                margin-bottom: 1vh;
+                --c:  #ffffff; /* the button bg color*/
+                box-shadow: 0 0 0 .1em inset var(--c); 
+                 --_g: linear-gradient(var(--c) 0 0) no-repeat;
+                 background: 
+                 var(--_g) calc(var(--_p,0%) - 100%) 0%,
+                 var(--_g) calc(200% - var(--_p,0%)) 0%,
+                 var(--_g) calc(var(--_p,0%) - 100%) 100%,
+                 var(--_g) calc(200% - var(--_p,0%)) 100%;
+                 background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
             }
 }    
