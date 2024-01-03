@@ -1,3 +1,17 @@
 .logo_mainpages{
    margin-top: 5vh;
+   margin-bottom: 10vh;
+}
+
+.schools_div_mainpage{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  position: absolute;
+  gap: 8vw;
+  margin-left: 10vw;
+}
+.products_pic_mainpages{
+  height: 30vh;
+  width: 15vw;
 }

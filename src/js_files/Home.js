@@ -7,7 +7,7 @@ return (
  <>
      {/* start of header */}
      <header>
-      <h1 id="unityuniformsheaderid" className='unityuniformsheaderclass'>Unity Uniforms</h1> 
+     <Link to="/"><h1 id="unityuniformsheaderid" className='unityuniformsheaderclass' to="/City">Unity Uniforms</h1></Link>
       <div id="buttonsheader">
       <Link className="allbuttons" id="aboutus_id_header" to="/Footer">ABOUT US</Link>
       <Link className="allbuttons" id="loginid" to="/Login">LOGIN</Link>
