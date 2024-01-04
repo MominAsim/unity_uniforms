@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import './App.css';
 
-const Socks = () => {
+const Sportshirt = () => {
 return (
  <>
       {/*header */}
@@ -20,9 +20,9 @@ return (
       <div className="all_elements_products_show_page">
       <img className="logo_second_page" src="/images/tcs.png" alt="Img didnt load :("/><br></br>
       <br></br>
-      <img className="image_product_secondpage" src="/images/products/Socks.jpg" alt="Shirt pic" />
-      <h1 className="product_name_second_page">Socks</h1>
-      <p>Unisex White Cotton Socks</p>
+      <img className="image_product_secondpage" src="/images/products/Sports_shirt.jpg" alt="Shirt pic" />
+      <h1 className="product_name_second_page">Sports shirt</h1>
+      <p>Sports Shirt for Sports Wear</p>
       <h2 className="price_product_second_page">RS 500</h2>
       <select id="size_selection" name="attribute_pa_size"data-attribute_name="attribute_pa_size" data-show_option_none="yes">
       <option value="">Size</option>
@@ -62,4 +62,4 @@ return (
  </>
   );
 };
-export default Socks;
+export default Sportshirt;

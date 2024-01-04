@@ -14,7 +14,7 @@ import Hoodie from './products_js/Hoodie';
 import Pant from './products_js/Pant';
 import Shirt from './products_js/Shirt';
 import Socks from './products_js/Socks';
-import Sportsshirt from './products_js/Sportsshirt';
+import Sportsshirt from './products_js/Sportshirt';
 import Sportstrousers from './products_js/Sportstrousers';
 import Tie from './products_js/Tie';
 
@@ -37,7 +37,7 @@ const App = () => {
           <Route path='Pant' element={<Pant />} />
           <Route path='Shirt' element={<Shirt />} />
           <Route path='Socks' element={<Socks />} />
-          <Route path='Sportsshirt' element={<Sportsshirt />} />
+          <Route path='Sportshirt' element={<Sportsshirt />} />
           <Route path='Sportstrousers' element={<Sportstrousers />} />
           <Route path='Tie' element={<Tie />} />
         </Routes>
