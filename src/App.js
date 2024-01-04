@@ -8,14 +8,15 @@ import City from './js_files/City';
 import Frobles from './js_files/Frobles';
 import Licium from './js_files/Licium';
 import Tis from './js_files/Tis';
-import Cap from './js_files/products_js/Cap';
-import Hoodie from './js_files/products_js/Hoodie';
-import Pant from './js_files/products_js/Pant';
-import Shirt from './js_files/products_js/Shirt';
-import Socks from './js_files/products_js/Socks';
-import Sportsshirt from './js_files/products_js/Sportsshirt';
-import Sportstrousers from './js_files/products_js/Sportstrousers';
-import Tie from './js_files/products_js/Tie';
+
+import Cap from './products_js/Cap';
+import Hoodie from './products_js/Hoodie';
+import Pant from './products_js/Pant';
+import Shirt from './products_js/Shirt';
+import Socks from './products_js/Socks';
+import Sportsshirt from './products_js/Sportsshirt';
+import Sportstrousers from './products_js/Sportstrousers';
+import Tie from './products_js/Tie';
 
 const App = () => {
   return (

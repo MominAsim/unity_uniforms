@@ -19,7 +19,7 @@ return (
       <body >
       <img className="logo_mainpages" src="/images/tcs.png" alt="City School" />
       <div className="schools_div_mainpage">
-      
+      {/* <Link className="schoolselect_home" id="frobles_select_home" to="/Frobles"> */}
       <div className="products_box_mainpage">
       <img className="products_pic_mainpages" src="/images/products/shirt.jpg" alt="Img didnt load :("/>
       <h4 className="titleofitem_mainpage">Shirt</h4>
