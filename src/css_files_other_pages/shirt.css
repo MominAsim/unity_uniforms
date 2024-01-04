@@ -1,0 +1,16 @@
+.logo_second_page{
+    margin-top: 5vh;
+}
+.all_elements_products_show_page{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: 15vh;
+}
+.product_name_second_page{
+
+}
+.image_product_secondpage{
+    height: 70vh;
+    width: 40vw;
+}

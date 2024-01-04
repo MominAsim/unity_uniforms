@@ -11,7 +11,8 @@
   margin-right: 5vw;
 }
 .products_box_mainpage{
-  background-color: rgb(206, 232, 224);
+  background-color: rgb(197, 227, 234);
+  color: black;
   border: none;
   cursor: pointer;
   transition: 0.3s;
@@ -24,7 +25,6 @@
   height: 30vh;
   width: 15vw;
 }
-
   /* footer */
   .school_products_footer{
   margin-top: -80vh;

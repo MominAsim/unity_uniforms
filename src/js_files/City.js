@@ -18,48 +18,55 @@ return (
     {/* body */}
       <body >
       <img className="logo_mainpages" src="/images/tcs.png" alt="City School" />
-      <div className="schools_div_mainpage">
-      {/* <Link className="schoolselect_home" id="frobles_select_home" to="/Frobles"> */}
-      <div className="products_box_mainpage">
+      <div className="schools_div_mainpage">    
+      <Link className="products_box_mainpage" to="/Shirt">
       <img className="products_pic_mainpages" src="/images/products/shirt.jpg" alt="Img didnt load :("/>
       <h4 className="titleofitem_mainpage">Shirt</h4>
       <p className="price">RS 500</p>
-      </div>
-      <div className="products_box_mainpage">
+      </Link>
+
+      <Link className="products_box_mainpage" to="/Pant">
       <img className="products_pic_mainpages" src="/images/products/pant.jpg" alt="Img didnt load :("/>
       <h4 className="titleofitem_mainpage">Pant</h4>
       <p className="price">RS 500</p>
-      </div>
-      <div className="products_box_mainpage">
+      </Link>
+
+      <Link className="products_box_mainpage" to="/Hoodie">
       <img className="products_pic_mainpages" src="/images/products/hoodie.jpg" alt="Img didnt load :("/>
       <h4 className="titleofitem_mainpage">Hoodie</h4>
       <p className="price">RS 500</p>
-      </div>
-      <div className="products_box_mainpage">
+      </Link>
+
+      <Link className="products_box_mainpage" to="/Cap">
       <img className="products_pic_mainpages" src="/images/products/cap.jpg" alt="Img didnt load :("/>
       <h4 className="titleofitem_mainpage">Cap</h4>
       <p className="price">RS 500</p>
-      </div>
-      <div className="products_box_mainpage">
+      </Link>
+
+      <Link className="products_box_mainpage" to="/Socks">
       <img className="products_pic_mainpages" src="/images/products/socks.jpg" alt="Img didnt load :("/>
       <h4 className="titleofitem_mainpage">Socks</h4>
       <p className="price">RS 500</p>
-      </div>
-      <div className="products_box_mainpage">
+      </Link>
+
+      <Link className="products_box_mainpage" to="/Sportstrousers">
       <img className="products_pic_mainpages" src="/images/products/sports_pant.jpg" alt="Img didnt load :("/>
       <h4 className="titleofitem_mainpage">Sports Pant</h4>
       <p className="price">RS 500</p>
-      </div>
-      <div className="products_box_mainpage">
+      </Link>
+
+      <Link className="products_box_mainpage" to="/Sportshirt">
       <img className="products_pic_mainpages" src="/images/products/sports_shirt.jpg" alt="Img didnt load :("/>
       <h4 className="titleofitem_mainpage">Sports Shirt</h4>
       <p className="price">RS 500</p>
-      </div>
-      <div className="products_box_mainpage">
+      </Link>
+
+      <Link className="products_box_mainpage" to="/Tie">
       <img className="products_pic_mainpages" src="/images/products/tie.jpg" alt="Img didnt load :("/>
       <h4 className="titleofitem_mainpage">Tie</h4>
       <p className="price">RS 500</p>
-      </div>
+      </Link>
+
       </div>
       </body>
       <footer className="school_products_footer">
