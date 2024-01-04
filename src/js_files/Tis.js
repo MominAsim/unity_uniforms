@@ -17,7 +17,7 @@ return (
 
     {/* body */}
       <body >
-      <img className="logo_mainpages" src="/images/frobles.jpg" alt="City School" />
+      <img className="logo_mainpages" src="/images/tis.png" alt="Tis" />
       <div className="schools_div_mainpage">    
       <Link className="products_box_mainpage" to="/Shirt">
       <img className="products_pic_mainpages" src="/images/products/shirt.jpg" alt="Img didnt load :("/>
