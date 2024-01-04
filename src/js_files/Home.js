@@ -43,6 +43,7 @@ return (
       <br></br>
       <br></br>
     </body>
+    {/* footer */}
     <footer>
     <div className="footer_headings_div">
     <h2 className="contactus_footer">Contact Us</h2>
