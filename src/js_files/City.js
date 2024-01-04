@@ -51,7 +51,7 @@ return (
 
       <Link className="products_box_mainpage" to="/Sportstrousers">
       <img className="products_pic_mainpages" src="/images/products/sports_pant.jpg" alt="Img didnt load :("/>
-      <h4 className="titleofitem_mainpage">Sports Pant</h4>
+      <h4 className="titleofitem_mainpage">Sports Trousers</h4>
       <p className="price">RS 500</p>
       </Link>
 
