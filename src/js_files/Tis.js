@@ -17,7 +17,7 @@ return (
 
     {/* body */}
       <body >
-      <img className="logo_mainpages" src="/images/tis.png" alt="Tis" />
+      <img className="logo_mainpages" src="/images/tis.png" alt="City School" />
       <div className="schools_div_mainpage">    
       <Link className="products_box_mainpage" to="/Shirt">
       <img className="products_pic_mainpages" src="/images/products/shirt.jpg" alt="Img didnt load :("/>
@@ -31,39 +31,10 @@ return (
       <p className="price">RS 500</p>
       </Link>
 
-      <Link className="products_box_mainpage" to="/Hoodie">
-      <img className="products_pic_mainpages" src="/images/products/hoodie.jpg" alt="Img didnt load :("/>
-      <h4 className="titleofitem_mainpage">Hoodie</h4>
-      <p className="price">RS 500</p>
-      </Link>
-
-      <Link className="products_box_mainpage" to="/Cap">
-      <img className="products_pic_mainpages" src="/images/products/cap.jpg" alt="Img didnt load :("/>
-      <h4 className="titleofitem_mainpage">Cap</h4>
-      <p className="price">RS 500</p>
-      </Link>
-
-      <Link className="products_box_mainpage" to="/Socks">
-      <img className="products_pic_mainpages" src="/images/products/socks.jpg" alt="Img didnt load :("/>
-      <h4 className="titleofitem_mainpage">Socks</h4>
-      <p className="price">RS 500</p>
-      </Link>
-
-      <Link className="products_box_mainpage" to="/Sportstrousers">
-      <img className="products_pic_mainpages" src="/images/products/sports_pant.jpg" alt="Img didnt load :("/>
-      <h4 className="titleofitem_mainpage">Sports Trousers</h4>
-      <p className="price">RS 500</p>
-      </Link>
 
       <Link className="products_box_mainpage" to="/Sportshirt">
       <img className="products_pic_mainpages" src="/images/products/sports_shirt.jpg" alt="Img didnt load :("/>
       <h4 className="titleofitem_mainpage">Sports Shirt</h4>
-      <p className="price">RS 500</p>
-      </Link>
-
-      <Link className="products_box_mainpage" to="/Tie">
-      <img className="products_pic_mainpages" src="/images/products/tie.jpg" alt="Img didnt load :("/>
-      <h4 className="titleofitem_mainpage">Tie</h4>
       <p className="price">RS 500</p>
       </Link>
 
@@ -81,7 +52,6 @@ return (
        <p className="aboutus_class_para">Unity Uniforms is a provider of quality uniforms in Pakistan. Our commitment to excellence has made us the go-to choice for leading schools, colleges, and all kinds of uniforms. With years of experience in the industry, we have perfected the art of crafting uniforms that are both comfortable and durable.
        We use the finest materials to ensure our uniforms meet the highest standards. Our team works closely with schools and colleges to create custom uniform solutions that meet their specific needs. From design to delivery, we take great pride in every aspect of our work. Choose Unity Uniforms for a uniform solution that is both reliable and of top-notch quality.</p>
       </div>
-      <img id="smiley" className="products_pic_mainpages" src="/images/products/smiley.png" alt="Img didnt load :("/>
       </footer>
  </>
   );
