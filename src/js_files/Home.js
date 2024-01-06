@@ -10,11 +10,13 @@ import 'swiper/css/pagination';
 const Home = () => {
   // the swiper thing under the header
   const swiper = new Swiper('.swiper', {
-    direction: 'vertical',
-    loop: true,
+      loop: true,
+
       pagination: {
       el: '.swiper-pagination',
+      clickable: true,
     },
+
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
