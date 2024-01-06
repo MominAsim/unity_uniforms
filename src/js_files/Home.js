@@ -44,9 +44,7 @@ return (
       <div class="swiper-button-next"></div>
   </div>
   </div>
-      <br></br>
       <h1 id="school_heading_body"><b><u>Select A School</u></b></h1>
-      <br></br>
       <br></br>
       <br></br>
       <br></br>
@@ -55,6 +53,7 @@ return (
       <img src="/images/tis.png" alt="Tis" />
       </Link>
       </div>
+      <br></br>
       <br></br>
       <br></br>
       <h4 className="more_schools_h4">More Schools Coming Soon....</h4>
