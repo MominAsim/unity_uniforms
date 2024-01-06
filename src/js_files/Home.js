@@ -47,6 +47,8 @@ return (
       <br></br>
       <br></br>
       <h1 id="school_heading_body"><b><u>Select A School</u></b></h1>
+      <br></br>
+      <br></br>
       <div className="schoolselect_home_div">
       <Link className="schoolselect_home" id="tis_select_home" to="/Tis">
       <img src="/images/tis.png" alt="Tis" />
