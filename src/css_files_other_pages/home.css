@@ -28,10 +28,6 @@ a{
   }
   
   /* body */
-.get_back_to_school_image{
-  height: 60vh;
-  width: 100%;
-}
 .schoolselect_home_div{
   display: flex;
   justify-content: center;

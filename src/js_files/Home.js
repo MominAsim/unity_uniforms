@@ -1,8 +1,26 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import './App.css';
+import Swiper from 'swiper';
+import { Navigation, Pagination } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 const Home = () => {
+  // the swiper thing under the header
+  const swiper = new Swiper('.swiper', {
+    direction: 'vertical',
+    loop: true,
+      pagination: {
+      el: '.swiper-pagination',
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+  
 return (
  <>
      {/* start of header */}
@@ -17,7 +35,15 @@ return (
 
     {/* body of home page  */}
     <body>
-      <img src="/images/back_to_school.webp" alt="Get Back To School" className="get_back_to_school_image"/>
+      <div className="swiper">
+      <div class="swiper-wrapper">
+      <img src="/images/back_to_school.webp" alt="Get Back To School" className="swiper-slide"/>
+      <img src="/images/unity-uniforms.jpeg" alt="unity uniforms" className="swiper-slide"/>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+  </div>
+  </div>
       <br></br>
       <br></br>
       <h1 id="school_heading_body"><b><u>Select A School</u></b></h1>
@@ -28,12 +54,16 @@ return (
       </div>
       <br></br>
       <br></br>
+      <h4 className="more_schools_h4">More Schools Coming Soon....</h4>
+      <br></br>
+      <br></br>
       <br></br>
       <br></br>
       <br></br>
       <br></br>
       <br></br>
     </body>
+
     {/* footer */}
     <footer>
     <div className="footer_headings_div">
