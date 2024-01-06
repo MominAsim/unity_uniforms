@@ -45,8 +45,9 @@ return (
   </div>
   </div>
       <br></br>
-      <br></br>
       <h1 id="school_heading_body"><b><u>Select A School</u></b></h1>
+      <br></br>
+      <br></br>
       <br></br>
       <br></br>
       <div className="schoolselect_home_div">
