@@ -8,8 +8,12 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 const Home = () => {
-  // the swiper thing under the header
+
   const swiper = new Swiper('.swiper', {
+    autoplay:{
+      delay: 3000,
+      disableOnInteraction: false,
+    },
       loop: true,
 
       pagination: {
@@ -47,8 +51,6 @@ return (
   </div>
   </div>
       <h1 id="school_heading_body"><b><u>Select A School</u></b></h1>
-      <br></br>
-      <br></br>
       <div className="schoolselect_home_div">
       <Link className="schoolselect_home" id="tis_select_home" to="/Tis">
       <img src="/images/tis.png" alt="Tis" />
