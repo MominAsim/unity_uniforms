@@ -12,6 +12,7 @@ a{
     align-items: center;
   }
   .header_logo_unity{
+    margin-left: 1vw;
    width: 25vw;
    height: 18vh;
   }
@@ -24,18 +25,19 @@ a{
     justify-content: center;
     flex-direction: row;
     gap: 5vw;
-    margin-left: 10vw;
+    margin-left: 7vw;
     font-size: 2vw;
   }
   @media screen and (max-width: 850px) {
     .header_logo_unity{
-      width: 32vw;
-      height: 8vh;
+      margin-left: 1vw;
+      width: 36vw;
+      height: 7vh;
      }
         #buttonsheader{
-          margin-left: 6vw;
+          margin-left: 3vw;
           font-size: 4vw;
-          gap: 4.3vw;
+          gap: 4vw;
         }
         #registerid{
           margin-right: 3vw;
