@@ -11,7 +11,7 @@ return (
       <div className="all_elements_products_show_page">
       <img className="logo_second_page" src="/images/tis.png" alt="Img didnt load :("/><br></br>
       <br></br>
-      <img className="image_product_secondpage" src="/images/products/Sports_shirt.jpg" alt="Shirt pic" />
+      <img className="image_product_secondpage" src="/images/products/sports_shirt.jpg" alt="Shirt pic" />
       <h1 className="product_name_second_page">Sports shirt</h1>
       <p>Sports Shirt for Sports Wear</p>
       <h2 className="price_product_second_page">RS 500</h2>

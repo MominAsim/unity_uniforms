@@ -25,6 +25,9 @@
    height: 30vh;
    width: 15vw;
  }
+ .unavailable{
+  color: rgb(179, 0, 0);
+ }
 
    /* mobile */
    @media screen and (max-width: 850px) {
@@ -38,5 +41,9 @@
      .products_pic_mainpages{
        height: 20vh;
        width: 40vw;
+     }
+     .unavailable{
+      color: rgb(181, 0, 0);
+      font-size: 5vw;
      }
     } 
