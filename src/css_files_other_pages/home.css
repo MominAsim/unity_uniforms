@@ -1,33 +1,7 @@
-/* header */
-a{
-    text-decoration: none; 
-    color: rgb(255, 255, 255);
+  .swiper {
+    width: 100%;
+    height: 60vh;
   }
-  body{
-    text-align: center;
-  }
-  header{
-    background-color: rgb(1, 5, 86);
-    min-height: 6rem;
-    max-height: 10rem;
-    display: flex;
-    align-items: center;
-  }
-  #unityuniformsheaderid{
-    margin-left: 5vw; 
-    color: white;
-    font-size: 2.5vw;
-  }
-  #buttonsheader{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    gap: 5vw;
-    margin-left: 11vw;
-    font-size: 2vw;
-  }
-  
-  /* body */
 .schoolselect_home_div{
   display: flex;
   justify-content: center;
@@ -89,6 +63,10 @@ footer{
         }
 
         /* body */
+        .swiper {
+          width: 100%;
+          height: 30vh;
+        }
         #school_heading_body{
          font-size: 9vw;
          margin-bottom: -9vh;

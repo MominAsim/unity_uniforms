@@ -3,6 +3,8 @@ import './js_files/App.css';
 import React from "react";
 import Login from "./js_files/Login";
 import Register from './js_files/Register';
+import Header from './js_files/Header';
+import Footer from './js_files/Footer';
 import Home from './js_files/Home';
 import Tis from './js_files/Tis';
 
@@ -17,6 +19,8 @@ const App = () => {
          <BrowserRouter>
         <Routes>
            <Route path='/' element={<Home />} />
+           <Route path='Header' element={<Header />} />
+           <Route path='Footer' element={<Footer />} />
            <Route path='Login' element={<Login />} />
            <Route path='Register' element={<Register />} />
            <Route path='Tis' element={<Tis />} />
