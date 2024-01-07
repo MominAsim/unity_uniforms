@@ -6,7 +6,7 @@ a{
     text-align: center;
   }
   header{
-    background-color:#183E49;
+    background-color:#183E47;
     height: 18vh;
     display: flex;
     align-items: center;
@@ -29,8 +29,8 @@ a{
   }
   @media screen and (max-width: 850px) {
     .header_logo_unity{
-      width: 25vw;
-      height: 10vh;
+      width: 32vw;
+      height: 8vh;
      }
         #buttonsheader{
           margin-left: 4vw;
