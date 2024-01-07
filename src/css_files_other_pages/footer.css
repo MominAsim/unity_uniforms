@@ -28,6 +28,9 @@ footer{
   }
 
   @media screen and (max-width: 850px) {
+    .footer_all_info{
+      margin-left: 5vw;
+    }
         .aboutus_div_class{
           display: grid;
           grid-template-columns: repeat(2, 1fr);
@@ -37,13 +40,13 @@ footer{
           display: grid;
           grid-template-columns: repeat(2, 1fr);
           grid-template-rows: repeat(2, 1fr);
-          margin-bottom: -15vh;
         }
         .aboutus_h1{
-          margin-left: -18svw;
+          margin-right: -6vw;
           font-size: 5vw;
         }
         .aboutus_class_para{
+         margin-right: 5vw;
          margin-top: 10vh;
          margin-left: -15vw;
          font-size: 3vw;
@@ -53,6 +56,7 @@ footer{
           margin-left: -15vw;
         }
         .phone_number{
+          margin-left: 5vw;
           margin-top: 7vh;
           font-size: 4vw;
           margin-left: -15vw;
