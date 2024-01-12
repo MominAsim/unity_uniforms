@@ -1,8 +1,22 @@
-import React from "react";
-import { Link } from 'react-router-dom';
+import React, { useState } from "react";
+import { Link, useActionData } from 'react-router-dom';
 import './App.css';
+import axios from "axios"
 
 const Login = () => {
+ const [email,setEmail]=useState("")
+ const [password,setPassword]=useState("")
+
+ async function submit(e){
+  e.preventDefault();
+
+  try{
+   await axios.post("https//localhost:")
+  }
+  catch{
+
+}
+}
 return (
 <div>
      <>
@@ -13,11 +27,13 @@ return (
      <b><p id="loginh1id" className="loginorregisterh1">LOGIN</p></b>
      </div>
      <div className="inputs_parent">
-     <input id="login_email_box" className="email_box" type="email" name="Email" placeholder="EMAIL"></input>
+
+     <input onChange={(e)=>{setEmail(e.target.value)}} id="login_email_box" className="email_box" type="email" name="email" placeholder="EMAIL"></input>
      <br></br>
-     <input className="password_box" type="password" name="PASSWORD" placeholder="PASSWORD"></input>
+     <input onChange={(e)=>{setPassword(e.target.value)}} className="password_box" type="password" name="password" placeholder="PASSWORD"></input>
      <br></br>
-     <button type="submit" onClick="login_button_function" id="login_button">Login</button>
+     <button onClick={submit} type="submit" id="login_button">Login</button>
+
      <p className="noacc_registerpg">Dont have an account?</p>
      <Link className="allbuttons" id="toregister_loginpg" to="/Register">Register</Link>
      <br></br>
