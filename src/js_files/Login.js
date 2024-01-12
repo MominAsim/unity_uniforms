@@ -4,6 +4,8 @@ import './App.css';
 import axios from "axios"
 
 const Login = () => {
+ const history=useNavigate();
+
  const [email,setEmail]=useState("")
  const [password,setPassword]=useState("")
 
@@ -11,10 +13,23 @@ const Login = () => {
   e.preventDefault();
 
   try{
-   await axios.post("https//localhost:")
+   await axios.post("https//localhost:3001/Login",{
+    email,password
+   })
+   .then(res=>{
+    if(res.data=="exist"){
+      history("/Home",{state:{id:username}})
   }
-  catch{
-
+  else if(res.data=="notexist"){
+      alert("User have not registered")
+  }})
+  .catch(e=>{
+    alert("wrong details")
+    console.log(e);
+})
+}
+  catch(e){
+   console.log(e)
 }
 }
 return (
