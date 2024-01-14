@@ -2,33 +2,51 @@ import React, { useState } from 'react';
 import './App.css';
 import Header from "../js_files/Header";
 import Footer from "../js_files/Footer";
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
 
 const Sportshirt = () => {
-
-  // javasript
+// javasript
+// js for changing image when a africa or europe select are selected
 const [selectedOption, setSelectedOption] = useState('default');
+const [currentSlide, setCurrentSlide] = useState(0);
 const handleSelectChange = (event) => {
   setSelectedOption(event.target.value);
 };
 const getImageSource = () => {
   switch (selectedOption) {
     case 'Europe':
-      return '/images/products/sports_shirt/europe/europe_shirt_pic_front.jpg';
+      return `/images/products/sports_shirt/europe/europe_shirt_pic_front.jpg`;
     case 'Africa':
-      return '/images/products/sports_shirt/africa/africa_shirt_pic_front.jpg';
+      return `/images/products/sports_shirt/africa/africa_shirt_pic_front.jpg`;
     default:
       return '/images/products/sports_shirt/europe/europe_shirt_pic_front.jpg';
-  }
+  }};
+//settings for changing pics of product
+const settings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  afterChange: (index) => setCurrentSlide(index),
 };
   return (
- <>
+    <>
     <Header />
     <body>
       <div className="all_elements_products_show_page">
       <img className="logo_second_page" src="/images/tis.png" alt="Img didnt load :("/><br></br>
       <br></br>
-      <img src={getImageSource()} id="image_product_secondpage_id"
-      className="image_product_secondpage" alt="Shirt pic" />
+      <Slider {...settings}>
+        {[1, 2, 3].map((slideNumber) => (
+          <div className="product_image_div" key={slideNumber}>
+            <img className="image_product_secondpage" src={getImageSource()} alt={`Product ${slideNumber}`} />
+          </div>
+        ))}
+      </Slider>
       <h1 className="product_name_second_page">Sports shirt</h1>
       <p>Sports Shirt for Sports Wear</p>
       <h2 className="price_product_second_page">RS 1300</h2>
@@ -57,7 +75,7 @@ const getImageSource = () => {
     <br></br>
     <br></br>
     <Footer />
- </>
+    </>
   );
 };
 export default Sportshirt;

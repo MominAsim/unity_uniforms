@@ -5,7 +5,14 @@
 .all_elements_products_show_page{
     margin-top: 15vh;
 }
+.product_image_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .image_product_secondpage{
+    margin-left: 30vw;
+    align-items: center;
     height: 90vh;
     width: 40vw;
 }
@@ -34,6 +41,7 @@
         margin-top: 10vh;
     }
     .image_product_secondpage{
+        margin-left: 4vw;
         height: 50vh;
         width: 90vw;
     }
