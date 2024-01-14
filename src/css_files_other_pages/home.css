@@ -36,7 +36,6 @@
 
 .custom-shape-divider-bottom-1705253153 .shape-fill {
   fill: #183E47;
-  ;
 }
   /* mobile */
   @media screen and (max-width: 850px) {
@@ -90,7 +89,7 @@
       
       .custom-shape-divider-bottom-1705253153 .shape-fill {
           fill:   #183E47;
-          ;
+          
       }
          
   }    

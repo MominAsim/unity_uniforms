@@ -26,7 +26,25 @@
     background-color: brown;
     color: rgb(255, 255, 255);
 }
-
+.custom-shape-divider-bottom-1705253153 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
+  
+  .custom-shape-divider-bottom-1705253153 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+  }
+  
+  .custom-shape-divider-bottom-1705253153 .shape-fill {
+    fill: #183E47;
+  }
  /* mobile */
  @media screen and (max-width: 850px) {
      
@@ -55,5 +73,23 @@
         background-color: brown;
         color: rgb(255, 255, 255);
     }
-
+    .custom-shape-divider-bottom-1705253153 {
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .custom-shape-divider-bottom-1705253153 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 25px;
+        transform: rotateY(180deg);
+    }
+    
+    .custom-shape-divider-bottom-1705253153 .shape-fill {
+        fill:   #183E47;
+    }
   }    
