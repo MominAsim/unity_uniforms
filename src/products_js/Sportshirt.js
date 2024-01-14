@@ -1,10 +1,25 @@
-import React from "react";
+import React, { useState } from 'react';
 import './App.css';
 import Header from "../js_files/Header";
 import Footer from "../js_files/Footer";
 
 const Sportshirt = () => {
-// javasript
+
+  // javasript
+const [selectedOption, setSelectedOption] = useState('default');
+const handleSelectChange = (event) => {
+  setSelectedOption(event.target.value);
+};
+const getImageSource = () => {
+  switch (selectedOption) {
+    case 'Europe':
+      return '/images/products/sports_shirt/europe/europe_shirt_pic_front.jpg';
+    case 'Africa':
+      return '/images/products/sports_shirt/africa/africa_shirt_pic_front.jpg';
+    default:
+      return '/images/products/sports_shirt/europe/europe_shirt_pic_front.jpg';
+  }
+};
   return (
  <>
     <Header />
@@ -12,7 +27,8 @@ const Sportshirt = () => {
       <div className="all_elements_products_show_page">
       <img className="logo_second_page" src="/images/tis.png" alt="Img didnt load :("/><br></br>
       <br></br>
-      <img className="image_product_secondpage" src="/images/products/sports_shirt/europe/europe_shirt_pic_front.jpg" alt="Shirt pic" />
+      <img src={getImageSource()} id="image_product_secondpage_id"
+      className="image_product_secondpage" alt="Shirt pic" />
       <h1 className="product_name_second_page">Sports shirt</h1>
       <p>Sports Shirt for Sports Wear</p>
       <h2 className="price_product_second_page">RS 1300</h2>
@@ -24,7 +40,7 @@ const Sportshirt = () => {
       <br></br>
       <br></br>
       <br></br>
-      <select id="sports_shirt_selector" name="attribute_pa_size"data-attribute_name="attribute_pa_size" data-show_option_none="yes">
+      <select id="sports_shirt_selector" value={selectedOption} onChange={handleSelectChange} name="attribute_pa_size"data-attribute_name="attribute_pa_size" data-show_option_none="yes">
       <option value="Europe" class="Europe_sports_shirt_selector_option">Europe</option>
       <option value="Africa" class="Africa_sports_shirt_selector_option">Africa</option>
       </select>
