@@ -12,6 +12,8 @@ return (
      <Header />
   <body>
     <Image_slider_mainpage />
+    <br></br>
+    <br></br>
       <h1 id="school_heading_body"><b><u>Select A School</u></b></h1>
       <div className="schoolselect_home_div">
       <Link className="schoolselect_home" id="tis_select_home" to="/Tis">

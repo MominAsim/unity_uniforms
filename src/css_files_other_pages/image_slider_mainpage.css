@@ -1,0 +1,11 @@
+.swiper_images{
+    width: 100vw;
+    height: 95vh;
+}
+
+@media screen and (max-width: 850px) {
+.swiper_images{
+    width: 100vw;
+    height: 30vh;
+}
+}
