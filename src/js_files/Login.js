@@ -1,40 +1,14 @@
 import React, { useState } from "react";
 import { Link, useActionData } from 'react-router-dom';
+import Header from "./Header";
+import Footer from "./Footer";
 import './App.css';
-import axios from "axios"
 
 const Login = () => {
- const history=useNavigate();
-
- const [email,setEmail]=useState("")
- const [password,setPassword]=useState("")
-
- async function submit(e){
-  e.preventDefault();
-
-  try{
-   await axios.post("https//localhost:3001/Login",{
-    email,password
-   })
-   .then(res=>{
-    if(res.data=="exist"){
-      history("/Home",{state:{id:username}})
-  }
-  else if(res.data=="notexist"){
-      alert("User have not registered")
-  }})
-  .catch(e=>{
-    alert("wrong details")
-    console.log(e);
-})
-}
-  catch(e){
-   console.log(e)
-}
-}
 return (
 <div>
      <>
+     <Header />
      <form method="post">
      <div className="register_page">
      <div className="register_card">
@@ -43,11 +17,11 @@ return (
      </div>
      <div className="inputs_parent">
 
-     <input onChange={(e)=>{setEmail(e.target.value)}} id="login_email_box" className="email_box" type="email" name="email" placeholder="EMAIL"></input>
+     <input id="login_email_box" className="email_box" type="email" name="email" placeholder="EMAIL"></input>
      <br></br>
-     <input onChange={(e)=>{setPassword(e.target.value)}} className="password_box" type="password" name="password" placeholder="PASSWORD"></input>
+     <input className="password_box" type="password" name="password" placeholder="PASSWORD"></input>
      <br></br>
-     <button onClick={submit} type="submit" id="login_button">Login</button>
+     <button type="submit" id="login_button">Login</button>
 
      <p className="noacc_registerpg">Dont have an account?</p>
      <Link className="allbuttons" id="toregister_loginpg" to="/Register">Register</Link>
@@ -59,6 +33,7 @@ return (
      </div>
      </form>
      </>
+     <Footer />
 </div>
   );
 };
