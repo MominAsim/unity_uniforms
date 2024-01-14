@@ -3,15 +3,13 @@ import { Link,} from 'react-router-dom';
 import './App.css';
 import Header from "./Header";
 import Footer from "./Footer";
-import Image_slider_mainpage from "./Image_slider_mainpage";
-
 
 const Home = () => {
 return (
  <>
      <Header />
   <body>
-    <Image_slider_mainpage />
+  <img src="./images/back_to_school.webp" className="swiper_images" alt="HEHEHEHEHEHEHEHEHHEHE"></img> 
     <br></br>
     <br></br>
       <h1 id="school_heading_body"><b><u>Select A School</u></b></h1>
