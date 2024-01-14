@@ -16,6 +16,10 @@
     height: 5vh;
     width: 30vw;
 }
+#sports_shirt_selector{
+    height: 5vh;
+    width: 30vw;
+}
 .addtocartbutton{
     height: 6vh;
     width: 20vw;
@@ -38,6 +42,10 @@
     }
     #size_selection{
         margin-top: 3vh;
+        height: 5vh;
+        width: 80vw;
+    }
+    #sports_shirt_selector{
         height: 5vh;
         width: 80vw;
     }
