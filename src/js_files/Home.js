@@ -1,29 +1,17 @@
 import React from "react";
-import { Link, useLocation } from 'react-router-dom';
+import { Link,} from 'react-router-dom';
 import './App.css';
-import Swiper from 'swiper';
-import { Navigation, Pagination } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/bundle';
 import Header from "./Header";
 import Footer from "./Footer";
+import Image_slider_mainpage from "./Image_slider_mainpage";
+
 
 const Home = () => {
 return (
  <>
      <Header />
   <body>
-<div class="swiper">
-  <div class="swiper-wrapper">
-    <img src="/images/back_to_school.webp" alt="Get Back To School" className="swiper-slide"/>
-    <img src="/images/unity-uniforms.jpeg" alt="unity uniforms" className="swiper-slide"/>
-  </div>
-  <div class="swiper-pagination"></div>
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
-  </div>
+    <Image_slider_mainpage />
       <h1 id="school_heading_body"><b><u>Select A School</u></b></h1>
       <div className="schoolselect_home_div">
       <Link className="schoolselect_home" id="tis_select_home" to="/Tis">

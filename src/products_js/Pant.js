@@ -15,7 +15,6 @@ return (
       <p>Formal Dress Trousers for All Weathers</p>
       <h2 className="price_product_second_page">RS 500</h2>
       <select id="size_selection" name="attribute_pa_size"data-attribute_name="attribute_pa_size" data-show_option_none="yes">
-      <option value="">Size</option>
       <option value="Small" class="Small">Small</option>
       <option value="Medium" class="Medium">Medium</option>
       <option value="Large" class="Large">Large</option>
