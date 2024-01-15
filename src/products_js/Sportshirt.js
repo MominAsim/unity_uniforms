@@ -80,7 +80,7 @@ const redirectTowatsapp = () => {
         <option value="Inschool_delivery">In School Delivery</option>
         <option value="Home_delivery">Home Delivery</option>
       </select>
-      <h2 className="price_product_second_page">TAKE A SCREENSHOT OF THIS PAGE WITH ONLY THE PRODUCT DETAILS<br></br>AND SEND ON THE WATSAPP GROUP</h2>
+      <h2 className="price_product_second_page">TAKE A SCREENSHOT OF THIS PAGE WITH ONLY THE PRODUCT DETAILS<br></br><br></br>AND SEND ON THE WATSAPP GROUP</h2>
       <button onClick={redirectTowatsapp} type="submit" className="addtocartbutton">BUY</button>
       </div>
       </form>
