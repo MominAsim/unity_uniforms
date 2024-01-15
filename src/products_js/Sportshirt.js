@@ -71,7 +71,7 @@ const redirectTowatsapp = () => {
       <label className='label_for_itemquantity'>*Quantity box of item cant be empty*</label>:""}
       <br></br>
       <br></br>
-      <input className="sports_shirts_name_buyer" type="name" name="shirts_name" placeholder="INPUT YOUR NAME" onChange={e=>setitem_amount(e.target.value)} />
+      <input className="sports_shirts_name_buyer" type="name" name="shirts_name" placeholder="INPUT YOUR REAL FULL NAME" onChange={e=>setitem_amount(e.target.value)} />
       <br></br>
       <br></br>
       <br></br>
