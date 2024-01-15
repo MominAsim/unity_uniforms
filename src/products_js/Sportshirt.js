@@ -73,8 +73,8 @@ const handleSubmit_product =(e)=>{
       <br></br>
       <br></br>
       <select className="sports_shirt_selector" id="imageSelector" value={selectedOption} onChange={handleSelectChange}>
-        <option value="Europe">Europe</option>
-        <option value="Africa">Africa</option>
+        <option value="Inschool_delivery">In School Delivery</option>
+        <option value="Home_delivery">Home Delivery</option>
       </select>
       <br></br>
       <br></br>

@@ -8,8 +8,10 @@ return (
      <Link to="/"><img src="/images/unity-uniforms.jpeg" alt="unity uniforms" className="header_logo_unity"/></Link>
       <div id="buttonsheader">
       <a className="allbuttons" id="aboutus_id_header" href="#aboutus_div_id">ABOUT US</a>
-      <Link className="allbuttons" id="loginid" to="/Login">LOGIN</Link>
-      <Link className="allbuttons" id="registerid" to="/Register">REGISTER</Link>
+      <a className="allbuttons" id="shools_id_header" href="#school_heading_body">SCHOOLS</a>
+      <a className="allbuttons" id="shools_id_header" href="#phone_number">CONTACT US</a>
+      {/* <Link className="allbuttons" id="loginid" to="/Login">LOGIN</Link>
+      <Link className="allbuttons" id="registerid" to="/Register">REGISTER</Link> */}
       </div>
     </header>  
   );
