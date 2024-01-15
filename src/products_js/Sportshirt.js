@@ -20,10 +20,22 @@ const getImageSource = () => {
       return '/images/products/sports_shirt/europe/europe_shirt_pic_front.jpg';
   }
 };
+//js for quantity selector 
+const [item_amount,setitem_amount]=useState("")
+const[error,setError]=useState(false)
+const handleSubmit_product =(e)=>{
+  e.preventDefault();
+  if(setitem_amount.length<=0){
+    setError(true)
+  }
+  console.log(setitem_amount)
+}
+
   return (
     <>
     <Header />
     <body>
+      <form onSubmit={handleSubmit_product}>
       <div className="all_elements_products_show_page">
       <img className="logo_second_page" src="/images/tis.png" alt="Img didnt load :("/><br></br>
       <br></br>
@@ -46,8 +58,15 @@ const getImageSource = () => {
       <br></br>
       <br></br>
       <br></br>
-      <button className="addtocartbutton">ADD TO CART</button>
+      <input className="shirts_amount" type="number" name="shirts_amount" placeholder="INPUT QUANTITY OF SHIRTS" onChange={e=>setitem_amount(e.target.value)} />
+      <br></br>
+      {error?
+      <label className='label_for_itemquantity'>*Quantity box of item cant be empty*</label>:""}
+      <br></br>
+      <br></br>
+      <button type="submit" className="addtocartbutton">ADD TO CART</button>
       </div>
+      </form>
     </body>
     <br></br>
     <br></br>

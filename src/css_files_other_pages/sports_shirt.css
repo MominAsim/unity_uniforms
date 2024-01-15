@@ -20,6 +20,13 @@
     height: 5vh;
     width: 30vw;
 }
+.shirts_amount{
+  width: 29.5vw;
+  height: 4vh;
+}
+.label_for_itemquantity{
+    color: red;
+}
 .addtocartbutton{
     height: 6vh;
     width: 20vw;
@@ -67,6 +74,10 @@
         height: 5vh;
         width: 80vw;
     }
+    .shirts_amount{
+        height: 5vh;
+        width: 80vw;
+      }
     .addtocartbutton{
         height: 8vh;
         width: 70vw;
