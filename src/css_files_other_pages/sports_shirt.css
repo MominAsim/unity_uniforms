@@ -24,6 +24,14 @@
   width: 29.5vw;
   height: 4vh;
 }
+.sports_shirts_name_buyer{
+    width: 29.5vw;
+  height: 4vh;
+ }
+ .sports_shirts_address_buyer{
+    width: 29.5vw;
+    height: 4vh;
+ }
 .label_for_itemquantity{
     color: red;
 }
@@ -75,9 +83,17 @@
         width: 80vw;
     }
     .shirts_amount{
-        height: 5vh;
-        width: 80vw;
+        height: 4.5vh;
+        width: 77vw;
       }
+     .sports_shirts_name_buyer{
+        height: 4.5vh;
+        width: 77vw;
+     }
+     .sports_shirts_address_buyer{
+        height: 4.5vh;
+        width: 77vw;
+     }
     .addtocartbutton{
         height: 8vh;
         width: 70vw;

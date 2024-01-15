@@ -42,7 +42,7 @@ const handleSubmit_product =(e)=>{
       <img className='image_product_secondpage' src={getImageSource()} alt="Selected Option" />
       <h1 className="product_name_second_page">Sports shirt</h1>
       <p>Sports Shirt for Sports Wear</p>
-      <h2 className="price_product_second_page">RS 1300</h2>
+      <h2 className="price_product_second_page">RS 1300 FOR IN SCHOOL DELIVERY FOR EACH SHIRT<br></br>RS 1400 FOR OUTSIDE SCHOOL DELIVERY FOR EACH SHIRT</h2>
       <select id="size_selection" name="attribute_pa_size"data-attribute_name="attribute_pa_size" data-show_option_none="yes">
       <option value="Small" class="Small">Small</option>
       <option value="Medium" class="Medium">Medium</option>
@@ -64,7 +64,22 @@ const handleSubmit_product =(e)=>{
       <label className='label_for_itemquantity'>*Quantity box of item cant be empty*</label>:""}
       <br></br>
       <br></br>
-      <button type="submit" className="addtocartbutton">ADD TO CART</button>
+      <input className="sports_shirts_name_buyer" type="name" name="shirts_name" placeholder="INPUT YOUR NAME" onChange={e=>setitem_amount(e.target.value)} />
+      <br></br>
+      <br></br>
+      <br></br>
+      <input className="sports_shirts_address_buyer" type="name" name="shirts_address" placeholder="INPUT YOUR ADDRESS" onChange={e=>setitem_amount(e.target.value)} />
+      <br></br>
+      <br></br>
+      <br></br>
+      <select className="sports_shirt_selector" id="imageSelector" value={selectedOption} onChange={handleSelectChange}>
+        <option value="Europe">Europe</option>
+        <option value="Africa">Africa</option>
+      </select>
+      <br></br>
+      <br></br>
+      <br></br>
+      <button type="submit" className="addtocartbutton">BUY</button>
       </div>
       </form>
     </body>
