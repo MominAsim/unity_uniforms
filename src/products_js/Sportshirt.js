@@ -17,6 +17,8 @@ const getImageSource = () => {
       return '/images/products/sports_shirt/europe/europe_shirt_pic_front.jpg';
     case 'Africa':
       return 'images/products/sports_shirt/africa/africa_shirt_pic_front.jpg';
+      case 'Asia':
+        return 'images/products/sports_shirt/Asia/asia_sports_shirt_pic.jpeg';
       default:
       return '/images/products/sports_shirt/europe/europe_shirt_pic_front.jpg';
   }
@@ -33,8 +35,8 @@ const handleSubmit_product =(e)=>{
 }
 //watsapp 
 const redirectTowatsapp = () => {
-  window.location.href = 'https://chat.whatsapp.com/DduANtkZ3k88g6JbXSNSlG'; // Replace with the desired website URL
-};
+  window.location.href = 'https://chat.whatsapp.com/DduANtkZ3k88g6JbXSNSlG' 
+}; 
   return (
     <>
     <Header />
@@ -58,6 +60,7 @@ const redirectTowatsapp = () => {
       <select className="sports_shirt_selector" id="imageSelector" value={selectedOption} onChange={handleSelectChange}>
         <option value="Europe">Europe</option>
         <option value="Africa">Africa</option>
+        <option value="Asia">Asia</option>
       </select>
       <br></br>
       <br></br>
@@ -80,8 +83,14 @@ const redirectTowatsapp = () => {
         <option value="Inschool_delivery">In School Delivery</option>
         <option value="Home_delivery">Home Delivery</option>
       </select>
-      <h2 className="price_product_second_page">TAKE A SCREENSHOT OF THIS PAGE WITH ONLY THE PRODUCT DETAILS<br></br><br></br>AND SEND ON THE WATSAPP GROUP</h2>
-      <button onClick={redirectTowatsapp} type="submit" className="addtocartbutton">BUY</button>
+      <br>
+      </br>
+      <br>
+      </br>
+      <h2 className="price_product_second_page">TAKE A SCREENSHOT OF THIS PAGE ONLY WITH THE PRODUCT DETAILS<br className='between_product_watsappgroup_h2'></br>AND SEND ON THE WATSAPP GROUP</h2>
+      <br>
+      </br>
+      <button type="submit" className="addtocartbutton">JOIN THE WATSAPP GROUP<Link to="https://chat.whatsapp.com/DduANtkZ3k88g6JbXSNSlG" target="_blank"></Link></button>
       </div>
       </form>
     </body>
