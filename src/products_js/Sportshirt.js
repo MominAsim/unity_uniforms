@@ -18,7 +18,7 @@ const getImageSource = () => {
     case 'Africa':
       return 'images/products/sports_shirt/africa/africa_shirt_pic_front.jpg';
       case 'Asia':
-        return 'images/products/sports_shirt/Asia/asia_sports_shirt_pic.jpeg';
+        return 'images/products/sports_shirt/asia/asia_sports_shirt_pic.jpeg';
       default:
       return '/images/products/sports_shirt/europe/europe_shirt_pic_front.jpg';
   }
@@ -87,7 +87,7 @@ const redirectTowatsapp = () => {
       </br>
       <br>
       </br>
-      <h2 className="price_product_second_page">TAKE A SCREENSHOT OF THIS PAGE ONLY WITH THE PRODUCT DETAILS<br className='between_product_watsappgroup_h2'></br>AND SEND ON THE WATSAPP GROUP</h2>
+      <h2 className="price_product_second_page">TAKE A SCREENSHOT OF THIS PAGE ONLY WITH THE PRODUCT DETAILS<br></br><br></br>AND SEND ON THE WATSAPP GROUP</h2>
       <br>
       </br>
       <button type="submit" className="addtocartbutton">JOIN THE WATSAPP GROUP<Link to="https://chat.whatsapp.com/DduANtkZ3k88g6JbXSNSlG" target="_blank"></Link></button>
