@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import Header from "../js_files/Header";
 import Footer from "../js_files/Footer";
+import { Link } from 'react-router-dom';
 
 const Sportshirt = () => {
 // javasript
@@ -30,7 +31,9 @@ const handleSubmit_product =(e)=>{
   }
   console.log(setitem_amount)
 }
-
+const redirectTowatsapp = () => {
+  window.location.href = 'https://web.whatsapp.com'; // Replace with the desired website URL
+};
   return (
     <>
     <Header />
@@ -79,7 +82,9 @@ const handleSubmit_product =(e)=>{
       <br></br>
       <br></br>
       <br></br>
-      <button type="submit" className="addtocartbutton">BUY</button>
+      <button onClick={redirectTowatsapp} type="submit" className="addtocartbutton">
+      BUY
+      </button>
       </div>
       </form>
     </body>
