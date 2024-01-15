@@ -31,8 +31,9 @@ const handleSubmit_product =(e)=>{
   }
   console.log(setitem_amount)
 }
+//watsapp 
 const redirectTowatsapp = () => {
-  window.location.href = 'https://web.whatsapp.com'; // Replace with the desired website URL
+  window.location.href = 'https://chat.whatsapp.com/DduANtkZ3k88g6JbXSNSlG'; // Replace with the desired website URL
 };
   return (
     <>
@@ -79,12 +80,8 @@ const redirectTowatsapp = () => {
         <option value="Inschool_delivery">In School Delivery</option>
         <option value="Home_delivery">Home Delivery</option>
       </select>
-      <br></br>
-      <br></br>
-      <br></br>
-      <button onClick={redirectTowatsapp} type="submit" className="addtocartbutton">
-      BUY
-      </button>
+      <h2 className="price_product_second_page">TAKE A SCREENSHOT OF THIS PAGE WITH ONLY THE PRODUCT DETAILS<br></br>AND SEND ON THE WATSAPP GROUP</h2>
+      <button onClick={redirectTowatsapp} type="submit" className="addtocartbutton">BUY</button>
       </div>
       </form>
     </body>
