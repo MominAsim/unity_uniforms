@@ -33,7 +33,8 @@ const handleSubmit_product =(e)=>{
   }
   console.log(setitem_amount)
 }
-//watsapp 
+
+// watsapp
 const redirectTowatsapp = () => {
   window.location.href = 'https://chat.whatsapp.com/DduANtkZ3k88g6JbXSNSlG' 
 }; 
