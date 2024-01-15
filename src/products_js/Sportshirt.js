@@ -36,8 +36,7 @@ const handleSubmit_product =(e)=>{
 
 // watsapp
 const redirectTowatsapp = () => {
-  window.location.href = 'https://chat.whatsapp.com/DduANtkZ3k88g6JbXSNSlG' 
-}; 
+  window.location.href = 'https://chat.whatsapp.com/DduANtkZ3k88g6JbXSNSlG'}; 
   return (
     <>
     <Header />
@@ -91,7 +90,7 @@ const redirectTowatsapp = () => {
       <h2 className="price_product_second_page">TAKE A SCREENSHOT OF THIS PAGE ONLY WITH THE PRODUCT DETAILS<br></br><br></br>AND SEND ON THE WATSAPP GROUP</h2>
       <br>
       </br>
-      <button type="submit" className="addtocartbutton">JOIN THE WATSAPP GROUP<Link to="https://chat.whatsapp.com/DduANtkZ3k88g6JbXSNSlG" target="_blank"></Link></button>
+      <Link to="https://chat.whatsapp.com/DduANtkZ3k88g6JbXSNSlG" target="_blank"><button onClick={redirectTowatsapp} type="submit" className="addtocartbutton">JOIN THE WATSAPP GROUP</button></Link>
       </div>
       </form>
     </body>
