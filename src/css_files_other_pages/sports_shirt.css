@@ -73,6 +73,7 @@
     }
     .price_product_second_page{
         color: rgb(189, 0, 0);
+        font-size: 4vw;
     }
     #size_selection{
         margin-top: 3vh;

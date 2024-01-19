@@ -87,7 +87,7 @@ const redirectTowatsapp = () => {
       </br>
       <br>
       </br>
-      <h3 className="price_product_second_page">TAKE A SCREENSHOT OF THIS PAGE ONLY WITH THE PRODUCT DETAILS<br></br><br></br>AND SEND ON THE WATSAPP GROUP</h3>
+      <h3 className="price_product_second_page">TAKE A SCREENSHOT OF THIS PAGE ONLY WITH THE PRODUCT DETAILS<br></br>AND SEND ON THE WATSAPP GROUP</h3>
       <br>
       </br>
       <Link to="https://chat.whatsapp.com/DduANtkZ3k88g6JbXSNSlG" target="_blank"><button onClick={redirectTowatsapp} type="submit" className="addtocartbutton">JOIN THE WATSAPP GROUP</button></Link>
