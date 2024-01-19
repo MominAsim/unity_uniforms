@@ -48,7 +48,7 @@ const redirectTowatsapp = () => {
       <img className='image_product_secondpage' src={getImageSource()} alt="Selected Option" />
       <h1 className="product_name_second_page">Sports shirt</h1>
       <p>Sports Shirt for Sports Wear</p>
-      <h2 className="price_product_second_page">RS 1300 FOR IN SCHOOL DELIVERY FOR EACH SHIRT<br></br>RS 1400 FOR OUTSIDE SCHOOL DELIVERY FOR EACH SHIRT</h2>
+      <h2 className="price_product_second_page">RS 1350 FOR IN SCHOOL DELIVERY FOR EACH SHIRT<br></br>RS 1450 FOR OUTSIDE SCHOOL DELIVERY FOR EACH SHIRT</h2>
       <select id="size_selection" name="attribute_pa_size"data-attribute_name="attribute_pa_size" data-show_option_none="yes">
       <option value="Small" class="Small">Small</option>
       <option value="Medium" class="Medium">Medium</option>
@@ -87,7 +87,7 @@ const redirectTowatsapp = () => {
       </br>
       <br>
       </br>
-      <h2 className="price_product_second_page">TAKE A SCREENSHOT OF THIS PAGE ONLY WITH THE PRODUCT DETAILS<br></br><br></br>AND SEND ON THE WATSAPP GROUP</h2>
+      <h3 className="price_product_second_page">TAKE A SCREENSHOT OF THIS PAGE ONLY WITH THE PRODUCT DETAILS<br></br><br></br>AND SEND ON THE WATSAPP GROUP</h3>
       <br>
       </br>
       <Link to="https://chat.whatsapp.com/DduANtkZ3k88g6JbXSNSlG" target="_blank"><button onClick={redirectTowatsapp} type="submit" className="addtocartbutton">JOIN THE WATSAPP GROUP</button></Link>
